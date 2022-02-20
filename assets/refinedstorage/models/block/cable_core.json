@@ -1,0 +1,23 @@
+{
+	"credit": "Made by mo_shark",
+	"texture_size": [32, 32],
+	"textures": {
+		"particle": "refinedstorage:block/cable",
+		"cable": "refinedstorage:block/cable"
+	},
+	"elements": [
+		{
+			"name": "Core",
+			"from": [6, 6, 6],
+			"to": [10, 10, 10],
+			"faces": {
+				"north": {"uv": [2, 12, 4, 14], "texture": "#cable"},
+				"east": {"uv": [2, 12, 4, 14], "texture": "#cable"},
+				"south": {"uv": [2, 12, 4, 14], "texture": "#cable"},
+				"west": {"uv": [2, 12, 4, 14], "texture": "#cable"},
+				"up": {"uv": [2, 12, 4, 14], "texture": "#cable"},
+				"down": {"uv": [2, 12, 4, 14], "texture": "#cable"}
+			}
+		}
+	]
+}
