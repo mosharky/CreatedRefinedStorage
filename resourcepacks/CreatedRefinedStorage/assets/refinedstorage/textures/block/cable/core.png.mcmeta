@@ -4,7 +4,7 @@
         "type": "ctm",
         "layer": "SOLID",
         "textures": [
-            "refinedstorage:block/cable_core_ctm"
+            "refinedstorage:block/cable/core_ctm"
         ],
         "extra": {
             "ignore_states": true

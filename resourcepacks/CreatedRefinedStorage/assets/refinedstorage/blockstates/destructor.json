@@ -1,0 +1,115 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "refinedstorage:block/cable_core"
+      }
+    },
+    {
+      "when": {
+        "north": true
+      },
+      "apply": {
+        "model": "refinedstorage:block/cable_extension"
+      }
+    },
+    {
+      "when": {
+        "east": true
+      },
+      "apply": {
+        "model": "refinedstorage:block/cable_extension",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "south": true
+      },
+      "apply": {
+        "model": "refinedstorage:block/cable_extension",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "west": true
+      },
+      "apply": {
+        "model": "refinedstorage:block/cable_extension",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "up": true
+      },
+      "apply": {
+        "model": "refinedstorage:block/cable_extension",
+        "x": 270
+      }
+    },
+    {
+      "when": {
+        "down": true
+      },
+      "apply": {
+        "model": "refinedstorage:block/cable_extension",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "north"
+      },
+      "apply": {
+        "model": "refinedstorage:block/destructor"
+      }
+    },
+    {
+      "when": {
+        "direction": "east"
+      },
+      "apply": {
+        "model": "refinedstorage:block/destructor",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "direction": "south"
+      },
+      "apply": {
+        "model": "refinedstorage:block/destructor",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "direction": "west"
+      },
+      "apply": {
+        "model": "refinedstorage:block/destructor",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "up"
+      },
+      "apply": {
+        "model": "refinedstorage:block/destructor",
+        "x": 270
+      }
+    },
+    {
+      "when": {
+        "direction": "down"
+      },
+      "apply": {
+        "model": "refinedstorage:block/destructor",
+        "x": 90
+      }
+    }
+  ]
+}

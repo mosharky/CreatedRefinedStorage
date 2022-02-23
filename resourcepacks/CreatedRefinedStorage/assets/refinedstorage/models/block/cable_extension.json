@@ -2,8 +2,8 @@
 	"credit": "Made by mo_shark",
 	"texture_size": [18, 18],
 	"textures": {
-		"cable": "refinedstorage:block/cable",
-		"particle": "refinedstorage:block/cable_core"
+		"cable": "refinedstorage:block/cable/cable",
+		"particle": "refinedstorage:block/cable/particle"
 	},
 	"elements": [
 		{
