@@ -1,0 +1,14 @@
+{
+    "ctm": {
+        "ctm_version": 1,
+        "type": "ctm",
+        "layer": "SOLID",
+        "textures": [
+            "refinedstorage:block/cable_core_ctm"
+        ],
+        "extra": {
+            "ignore_states": false,
+            "connect_inside": true
+        }
+    }
+}
