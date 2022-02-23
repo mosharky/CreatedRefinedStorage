@@ -1,0 +1,28 @@
+# Root Folders
+/saves/
+/mods/
+/logs/
+/downloads/
+/defaultconfigs/
+/config/
+/schematics/
+/screenshots/
+/resourcepacks/Copper Legacy Pack.zip
+
+# Root Files
+.curseclient
+minecraftinstance.json
+options.txt
+realms_persistence.json
+usercache.json
+usernamecache.json
+
+# KJS
+/kubejs/assets/
+/kubejs/config
+/kubejs/data
+/kubejs/exported
+/kubejs/README.txt
+
+# IDE
+/.vscode/
