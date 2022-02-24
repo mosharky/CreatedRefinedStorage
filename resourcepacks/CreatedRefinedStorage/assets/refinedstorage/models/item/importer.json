@@ -1,0 +1,148 @@
+{
+	"credit": "Made by mo_shark",
+	"texture_size": [18, 18],
+	"textures": {
+		"0": "refinedstorage:block/importer_exporter",
+		"cable": "refinedstorage:block/cable/cable"
+	},
+	"elements": [
+		{
+			"from": [6, 6, 4],
+			"to": [10, 10, 6],
+			"faces": {
+				"north": {"uv": [2, 6, 4.66667, 8.66667], "texture": "#0"},
+				"east": {"uv": [10.66667, 1.33333, 13.33333, 2.66666], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [2, 6, 4.66667, 8.66667], "texture": "#0"},
+				"west": {"uv": [10.66667, 1.33333, 13.33333, 2.66666], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [10.66667, 1.33333, 13.33333, 2.66666], "texture": "#0"},
+				"down": {"uv": [10.66667, 1.33333, 13.33333, 2.66666], "rotation": 180, "texture": "#0"}
+			}
+		},
+		{
+			"from": [4, 4, 1],
+			"to": [12, 12, 4],
+			"faces": {
+				"north": {"uv": [0.66667, 4.66667, 6, 10], "texture": "#0"},
+				"east": {"uv": [0.66667, 0.66667, 6, 2.66667], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [0.66667, 4.66667, 6, 10], "texture": "#0"},
+				"west": {"uv": [0.66667, 0.66667, 6, 2.66667], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [0.66667, 0.66667, 6, 2.66667], "texture": "#0"},
+				"down": {"uv": [0.66667, 0.66667, 6, 2.66667], "rotation": 180, "texture": "#0"}
+			}
+		},
+		{
+			"from": [3, 3, 0],
+			"to": [13, 13, 1],
+			"faces": {
+				"north": {"uv": [8.66667, 4, 15.33333, 10.66667], "texture": "#0"},
+				"east": {"uv": [14.66667, 4, 15.33333, 10.66667], "texture": "#0"},
+				"south": {"uv": [8.66667, 4, 15.33333, 10.66667], "texture": "#0"},
+				"west": {"uv": [8.66667, 4, 9.33333, 10.66667], "texture": "#0"},
+				"up": {"uv": [8.66667, 4, 15.33333, 4.66667], "texture": "#0"},
+				"down": {"uv": [8.66667, 10, 15.33333, 10.66667], "texture": "#0"}
+			}
+		},
+		{
+			"name": "cable",
+			"from": [8, 6, 6],
+			"to": [13, 10, 10],
+			"faces": {
+				"north": {"uv": [0.88889, 6.22222, 4.44444, 10.66667], "rotation": 270, "texture": "#cable"},
+				"east": {"uv": [0.88889, 0.88889, 4.44444, 4.44444], "texture": "#cable"},
+				"south": {"uv": [0.88889, 6.22222, 4.44444, 10.66667], "rotation": 90, "texture": "#cable"},
+				"west": {"uv": [0.88889, 0.88889, 4.44444, 4.44444], "texture": "#cable"},
+				"up": {"uv": [0.88889, 6.22222, 4.44444, 10.66667], "rotation": 90, "texture": "#cable"},
+				"down": {"uv": [0.88889, 6.22222, 4.44444, 10.66667], "rotation": 90, "texture": "#cable"}
+			}
+		},
+		{
+			"name": "connection",
+			"from": [13, 5, 5],
+			"to": [14, 11, 11],
+			"faces": {
+				"north": {"uv": [6.22222, 0.88889, 7.11111, 6.22222], "texture": "#cable"},
+				"east": {"uv": [7.11111, 0.88889, 12.44444, 6.22222], "texture": "#cable"},
+				"south": {"uv": [12.44444, 0.88889, 13.33333, 6.22222], "texture": "#cable"},
+				"west": {"uv": [7.11111, 0.88889, 12.44444, 6.22222], "texture": "#cable"},
+				"up": {"uv": [7.11111, 0, 12.44444, 0.88889], "rotation": 270, "texture": "#cable"},
+				"down": {"uv": [7.11111, 6.22222, 12.44444, 7.11111], "rotation": 90, "texture": "#cable"}
+			}
+		},
+		{
+			"name": "cable",
+			"from": [3, 6, 6],
+			"to": [8, 10, 10],
+			"faces": {
+				"north": {"uv": [0.88889, 6.22222, 4.44444, 10.66667], "rotation": 90, "texture": "#cable"},
+				"east": {"uv": [0.88889, 0.88889, 4.44444, 4.44444], "texture": "#cable"},
+				"south": {"uv": [0.88889, 6.22222, 4.44444, 10.66667], "rotation": 270, "texture": "#cable"},
+				"west": {"uv": [0.88889, 0.88889, 4.44444, 4.44444], "texture": "#cable"},
+				"up": {"uv": [0.88889, 6.22222, 4.44444, 10.66667], "rotation": 270, "texture": "#cable"},
+				"down": {"uv": [0.88889, 6.22222, 4.44444, 10.66667], "rotation": 270, "texture": "#cable"}
+			}
+		},
+		{
+			"name": "connection",
+			"from": [2, 5, 5],
+			"to": [3, 11, 11],
+			"faces": {
+				"north": {"uv": [6.22222, 0.88889, 7.11111, 6.22222], "rotation": 180, "texture": "#cable"},
+				"east": {"uv": [7.11111, 8, 12.44444, 13.33333], "texture": "#cable"},
+				"south": {"uv": [12.44445, 0.88889, 13.33334, 6.22222], "rotation": 180, "texture": "#cable"},
+				"west": {"uv": [7.11111, 0.88889, 12.44444, 6.22222], "texture": "#cable"},
+				"up": {"uv": [7.11111, 0, 12.44444, 0.88889], "rotation": 90, "texture": "#cable"},
+				"down": {"uv": [7.11111, 6.22222, 12.44444, 7.11111], "rotation": 270, "texture": "#cable"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 25, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [75, 25, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 24, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 24, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"gui": {
+			"rotation": [30, 225, 0],
+			"translation": [-1, 1.5, 0],
+			"scale": [0.625, 0.625, 0.625]
+		},
+		"head": {
+			"rotation": [0, 90, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"fixed": {
+			"scale": [0.5, 0.5, 0.5]
+		}
+	},
+	"groups": [
+		0,
+		1,
+		2,
+		{
+			"name": "cable1",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [3, 4]
+		},
+		{
+			"name": "cable2",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [5, 6]
+		}
+	]
+}
