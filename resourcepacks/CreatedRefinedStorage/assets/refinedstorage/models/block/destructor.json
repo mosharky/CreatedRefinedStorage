@@ -3,8 +3,8 @@
 	"textures": {
 		"cable": "refinedstorage:block/cable/cable",
 		"sides": "refinedstorage:block/constructor_destructor",
-		"particle": "refinedstorage:block/cable/particle",
-		"#face": "refinedstorage:block/destructor"
+		"#face": "refinedstorage:block/destructor",
+		"particle": "refinedstorage:block/cable/particle"
 	},
 	"elements": [
 		{
