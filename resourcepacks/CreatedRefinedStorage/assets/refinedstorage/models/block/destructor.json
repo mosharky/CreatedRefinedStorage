@@ -1,5 +1,6 @@
 {
 	"credit": "Made by mo_shark",
+	"texture_size": [18, 18],
 	"textures": {
 		"cable": "refinedstorage:block/cable/cable",
 		"sides": "refinedstorage:block/constructor_destructor",
@@ -21,29 +22,29 @@
 			}
 		},
 		{
+			"name": "cable",
+			"from": [6, 6, 3],
+			"to": [10, 10, 6],
+			"faces": {
+				"north": {"uv": [0.88889, 0.88889, 4.44444, 4.44444], "texture": "#cable"},
+				"east": {"uv": [0.88889, 6.22222, 4.44444, 8.88889], "rotation": 90, "texture": "#cable"},
+				"south": {"uv": [0.88889, 0.88889, 4.44444, 4.44444], "texture": "#cable"},
+				"west": {"uv": [0.88889, 6.22222, 4.44444, 8.88889], "rotation": 90, "texture": "#cable"},
+				"up": {"uv": [0.88889, 6.22222, 4.44444, 8.88889], "texture": "#cable"},
+				"down": {"uv": [0.88889, 6.22222, 4.44444, 8.88889], "texture": "#cable"}
+			}
+		},
+		{
 			"name": "connection",
 			"from": [5, 5, 2],
 			"to": [11, 11, 3],
 			"faces": {
-				"north": {"uv": [7.11111, 0.88889, 12.44444, 6.22222], "texture": "#cable"},
-				"east": {"uv": [6.22222, 0.88889, 7.11111, 6.22222], "texture": "#cable"},
-				"south": {"uv": [7.11111, 8, 12.44444, 13.33333], "texture": "#cable"},
-				"west": {"uv": [12.44444, 0.88889, 13.33333, 6.22222], "texture": "#cable"},
+				"north": {"uv": [7.11111, 0, 12.44444, 5.33333], "texture": "#cable"},
+				"east": {"uv": [12.44444, 0.88889, 13.33333, 6.22222], "texture": "#cable"},
+				"south": {"uv": [7.11111, 0.88889, 12.44444, 6.22222], "texture": "#cable"},
+				"west": {"uv": [6.22222, 0.88889, 7.11111, 6.22222], "texture": "#cable"},
 				"up": {"uv": [7.11111, 0, 12.44444, 0.88889], "texture": "#cable"},
 				"down": {"uv": [7.11111, 6.22222, 12.44444, 7.11111], "texture": "#cable"}
-			}
-		},
-		{
-			"name": "cable",
-			"from": [6, 6, 3],
-			"to": [10, 10, 8],
-			"faces": {
-				"north": {"uv": [0.88889, 0.88889, 4.44444, 4.44444], "texture": "#cable"},
-				"east": {"uv": [0.88889, 6.22222, 4.44444, 10.66667], "rotation": 90, "texture": "#cable"},
-				"south": {"uv": [0.88889, 0.88889, 4.44444, 4.44444], "texture": "#cable"},
-				"west": {"uv": [0.88889, 6.22222, 4.44444, 10.66667], "rotation": 270, "texture": "#cable"},
-				"up": {"uv": [0.88889, 6.22222, 4.44444, 10.66667], "texture": "#cable"},
-				"down": {"uv": [0.88889, 6.22222, 4.44444, 10.66667], "rotation": 180, "texture": "#cable"}
 			}
 		}
 	],
@@ -53,7 +54,9 @@
 			"name": "cable",
 			"origin": [8, 8, 8],
 			"color": 0,
-			"children": [1, 2]
-		}
+			"children": []
+		},
+		1,
+		2
 	]
 }
