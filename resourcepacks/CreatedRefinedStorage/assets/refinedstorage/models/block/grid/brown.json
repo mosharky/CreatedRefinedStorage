@@ -1,0 +1,7 @@
+{
+  "parent": "refinedstorage:block/grid",
+  "textures": {
+    "particle": "refinedstorage:block/machine_casing",
+    "cutout": "refinedstorage:block/grid/cutouts/brown"
+  }
+}
