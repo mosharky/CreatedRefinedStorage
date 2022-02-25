@@ -1,5 +1,5 @@
 {
-  "parent": "refinedstorage:block/grid",
+  "parent": "refinedstorage:block/computer",
   "textures": {
     "particle": "refinedstorage:block/machine_casing",
     "cutout": "refinedstorage:block/grid/cutouts/cyan"
