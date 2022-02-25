@@ -1,0 +1,102 @@
+{
+	"credit": "Made by mo_shark",
+	"texture_size": [24, 24],
+	"textures": {
+		"0": "refinedstorage:block/detector_powered",
+		"particle": "refinedstorage:block/detector_powered"
+	},
+	"elements": [
+		{
+			"name": "plate",
+			"from": [0, 0, 0],
+			"to": [16, 5, 16],
+			"faces": {
+				"north": {"uv": [0.66667, 0, 11.33333, 3.33333], "texture": "#0"},
+				"east": {"uv": [0.66667, 0, 11.33333, 3.33333], "texture": "#0"},
+				"south": {"uv": [0.66667, 0, 11.33333, 3.33333], "texture": "#0"},
+				"west": {"uv": [0.66667, 0, 11.33333, 3.33333], "texture": "#0"},
+				"up": {"uv": [0.66667, 4, 11.33333, 14.66667], "texture": "#0"},
+				"down": {"uv": [0.66667, 4, 11.33333, 14.66667], "texture": "#0"}
+			}
+		},
+		{
+			"from": [6, 5, 7],
+			"to": [10, 13, 7],
+			"faces": {
+				"north": {"uv": [12, 8, 14.66667, 13.33333], "texture": "#0"},
+				"south": {"uv": [12, 8, 14.66667, 13.33333], "texture": "#0"}
+			}
+		},
+		{
+			"from": [9, 5, 6],
+			"to": [9, 13, 10],
+			"faces": {
+				"east": {"uv": [12, 8, 14.66667, 13.33333], "texture": "#0"},
+				"west": {"uv": [12, 8, 14.66667, 13.33333], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7, 5, 6],
+			"to": [7, 13, 10],
+			"faces": {
+				"east": {"uv": [12, 8, 14.66667, 13.33333], "texture": "#0"},
+				"west": {"uv": [12, 8, 14.66667, 13.33333], "texture": "#0"}
+			}
+		},
+		{
+			"from": [6, 5, 9],
+			"to": [10, 13, 9],
+			"faces": {
+				"north": {"uv": [12, 8, 14.66667, 13.33333], "texture": "#0"},
+				"south": {"uv": [12, 8, 14.66667, 13.33333], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7, 11, 7],
+			"to": [9, 12, 9],
+			"faces": {
+				"up": {"uv": [12.66667, 8.66667, 14, 10], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 45, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 225, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"translation": [0, 3, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"gui": {
+			"rotation": [30, 225, 0],
+			"scale": [0.625, 0.625, 0.625]
+		},
+		"fixed": {
+			"scale": [0.5, 0.5, 0.5]
+		}
+	},
+	"groups": [
+		0,
+		{
+			"name": "torch",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [1, 2, 3, 4, 5]
+		}
+	]
+}
