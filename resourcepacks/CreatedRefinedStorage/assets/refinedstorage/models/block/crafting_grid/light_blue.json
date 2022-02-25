@@ -1,0 +1,8 @@
+{
+  "parent": "refinedstorage:block/computer",
+  "textures": {
+    "particle": "refinedstorage:block/machine_casing",
+
+    "cutout": "refinedstorage:block/crafting_grid/cutouts/light_blue"
+  }
+}
