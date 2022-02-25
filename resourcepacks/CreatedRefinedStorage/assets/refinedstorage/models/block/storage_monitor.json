@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "refinedstorage:block/machine_casing",
+    "north": "refinedstorage:block/storage_monitor",
+    "east": "refinedstorage:block/computer/side",
+    "south": "refinedstorage:block/computer/side",
+    "west": "refinedstorage:block/computer/side",
+    "up": "refinedstorage:block/machine_casing",
+    "down": "refinedstorage:block/machine_casing"
+  }
+}
