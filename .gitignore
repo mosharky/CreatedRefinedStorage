@@ -8,6 +8,7 @@
 /schematics/
 /screenshots/
 /resourcepacks/Copper Legacy Pack.zip
+/crash-reports/
 
 # Root Files
 .curseclient
@@ -16,6 +17,7 @@ options.txt
 realms_persistence.json
 usercache.json
 usernamecache.json
+icon.png
 
 # KJS
 /kubejs/assets/
